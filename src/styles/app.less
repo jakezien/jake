@@ -2,6 +2,28 @@
 @black: #000;
 
 body {
-    background-color: @white;
-    color: @black;
+    background-color: #E9EAEC;
+    color: #63656E;
+}
+
+div.intro {
+  font-family: "nimbus-sans";
+  font-weight: 600;
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  padding: 0 3em 0 1em;
+
+  p {
+    max-width: 700px;
+    line-height: 1.15;
+  }
+
+  a {
+    text-decoration:  none;
+    color: #F3A723;
+    transition: color 0.15s ease;
+    &:hover {
+      color: #DC8B00;
+    }
+  }
 }
