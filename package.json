@@ -1,5 +1,6 @@
 {
   "name": "mithril-boilerplate",
+  "license": "UNLICENSED",
   "description": "A quick setup for Mithril projects.",
   "repository": "https://github.com/velveteer/mithril-boilerplate",
   "devDependencies": {
